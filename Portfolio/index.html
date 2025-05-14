@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <div class="nav-links">
+      <a href="#" onclick="showPage('home')">Home</a>
+      <a href="#" onclick="showPage('about')">About</a>
+      <a href="#" onclick="showPage('projects')">Projects</a>
+      <a href="#" onclick="showPage('contact')">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="container">
+    <section id="home" class="page active">
+      <h1>Welcome 👋</h1>
+      <p>I'm <strong>Subham Mohanty</strong>, a passionate web developer turning ideas into reality on the internet.</p>
+    </section>
+
+    <section id="about" class="page">
+      <h1>About Me</h1>
+      <p>I'm a creative developer who loves building websites and learning new technologies. My focus is on creating intuitive, responsive, and accessible digital experiences.</p>
+    </section>
+
+    <section id="projects" class="page">
+      <h1>Projects</h1>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>To-Do App</h3>
+          <p>A minimal productivity app using JavaScript and localStorage.</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather Dashboard</h3>
+          <p>Get live weather data from OpenWeather API with a clean UI.</p>
+        </div>
+        <div class="project-card">
+          <h3>Mini Game</h3>
+          <p>A fun browser-based game built with HTML5 canvas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+      <ul>
+        <li>Email: subhammohanty524@gmail.com</li>
+        <li>GitHub: <a href="https://github.com/mohantysubham" target="_blank">mohantysubham</a></li>
+        <li>Instagram:<a href="https://instagram.com/mohanty9322" target="_blank">yourusername</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Subham Mohanty
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
